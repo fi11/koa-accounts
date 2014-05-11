@@ -1,0 +1,36 @@
+{
+  "name": "koa-accounts",
+  "version": "0.0.1",
+  "description": "co-accounts for Koa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fi11/koa-accounts.git"
+  },
+  "keywords": [
+    "koa",
+    "co",
+    "users",
+    "accounts",
+    "auth",
+    "authentication",
+    "jsonwebtoken",
+    "jwt"
+  ],
+  "bugs": {
+    "url": "https://github.com/fi11/koa-accounts/issues"
+  },
+  "homepage": "https://github.com/fi11/koa-accounts",
+  "author": {
+    "name": "Pavel Silin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "co-accounts": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "koa": "~0.6.0",
+    "supertest": "~0.12.1"
+  }
+}
