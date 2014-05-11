@@ -12,7 +12,7 @@ $ npm install koa-accounts
 ```js
 var koa = require('koa');
 var Backend = require('koa-accounts').backendStub;
-vae acc = require('koa-accounts');
+var acc = require('koa-accounts');
 var app = koa();
 
 app.accountOptions = { backend: new Backend(store), secretKey: 'shhh' };
